@@ -66,7 +66,7 @@
                 "drawing_id": "6ceba623-5647-46f2-bf46-2bde1962c0e0",
                 "locked": false,
                 "rotation": -48,
-                "svg": "<svg height=\"24\" width=\"140\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.173.173.129/26</text></svg>",
+                "svg": "<svg height=\"29\" width=\"187\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.173.173.129/26</text></svg>",
                 "x": -289,
                 "y": 184,
                 "z": 2
@@ -1780,5 +1780,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.26",
-    "zoom": 101
+    "zoom": 71
 }
