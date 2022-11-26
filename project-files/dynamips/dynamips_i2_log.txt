@@ -1,0 +1,15 @@
+Nov 26 19:51:51.485 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 26 19:51:51.486 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53214.
+Nov 26 19:51:51.491 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 26 19:51:51.492 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips 
+Nov 26 19:51:51.492 GENERAL: working_dir=C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips
+Nov 26 19:51:51.492 HYPERVISOR: exec_cmd: ethsw create Design 
+Nov 26 19:51:53.191 HYPERVISOR: exec_cmd: nio create_udp udp-b2b169de-f649-4b22-9cf8-1a2333fd5a9e 20005 127.0.0.1 20006 
+Nov 26 19:51:53.220 HYPERVISOR: exec_cmd: ethsw add_nio Design udp-b2b169de-f649-4b22-9cf8-1a2333fd5a9e 
+Nov 26 19:51:53.251 HYPERVISOR: exec_cmd: ethsw set_access_port Design udp-b2b169de-f649-4b22-9cf8-1a2333fd5a9e 1 
+Nov 26 19:51:53.358 HYPERVISOR: exec_cmd: nio create_udp udp-3f1f64c6-9da9-48f8-bbcf-280a8dd12f37 20014 127.0.0.1 20013 
+Nov 26 19:51:53.358 HYPERVISOR: exec_cmd: ethsw add_nio Design udp-3f1f64c6-9da9-48f8-bbcf-280a8dd12f37 
+Nov 26 19:51:53.376 HYPERVISOR: exec_cmd: ethsw set_access_port Design udp-3f1f64c6-9da9-48f8-bbcf-280a8dd12f37 1 
+Nov 26 19:51:53.415 HYPERVISOR: exec_cmd: nio create_udp udp-ac522f95-51bb-474e-aae2-8cdd21b2b68e 20016 127.0.0.1 20015 
+Nov 26 19:51:53.415 HYPERVISOR: exec_cmd: ethsw add_nio Design udp-ac522f95-51bb-474e-aae2-8cdd21b2b68e 
+Nov 26 19:51:53.437 HYPERVISOR: exec_cmd: ethsw set_access_port Design udp-ac522f95-51bb-474e-aae2-8cdd21b2b68e 1 

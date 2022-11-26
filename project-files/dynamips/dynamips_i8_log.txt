@@ -1,0 +1,43 @@
+Nov 26 19:51:52.240 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 26 19:51:52.241 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53238.
+Nov 26 19:51:52.777 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 26 19:51:52.777 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips 
+Nov 26 19:51:52.777 GENERAL: working_dir=C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips
+Nov 26 19:51:52.778 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips\fd935137-e013-4499-8312-78bafcc921fd 
+Nov 26 19:51:52.780 GENERAL: working_dir=C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips\fd935137-e013-4499-8312-78bafcc921fd
+Nov 26 19:51:52.780 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Nov 26 19:51:52.781 VM: VM R2 created.
+Nov 26 19:51:52.781 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5019 
+Nov 26 19:51:52.782 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Nov 26 19:51:52.782 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:51:52.782 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Nov 26 19:51:52.782 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Nov 26 19:51:52.783 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Nov 26 19:51:52.783 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/afons/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 26 19:51:52.784 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.59b0.0000 
+Nov 26 19:51:52.784 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Nov 26 19:51:52.785 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Nov 26 19:51:52.785 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:51:52.785 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Nov 26 19:51:52.785 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:51:52.785 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
+Nov 26 19:51:52.785 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:51:52.786 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Nov 26 19:51:53.731 HYPERVISOR: exec_cmd: nio create_udp udp-5e90e9fd-1ce3-46bf-a949-78b959945ccd 20029 127.0.0.1 20030 
+Nov 26 19:51:53.970 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-5e90e9fd-1ce3-46bf-a949-78b959945ccd 
+Nov 26 19:51:53.970 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:51:54.267 HYPERVISOR: exec_cmd: nio create_udp udp-3d87b8e7-333a-4cd2-b7d2-2a6d82c97ad6 20041 127.0.0.1 20042 
+Nov 26 19:51:54.269 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-3d87b8e7-333a-4cd2-b7d2-2a6d82c97ad6 
+Nov 26 19:51:54.269 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:51:54.331 HYPERVISOR: exec_cmd: nio create_udp udp-29db4983-97da-4987-af66-dab4b55eef9e 20045 127.0.0.1 20046 
+Nov 26 19:51:54.333 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-29db4983-97da-4987-af66-dab4b55eef9e 
+Nov 26 19:51:54.333 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:51:54.630 HYPERVISOR: exec_cmd: nio create_udp udp-bf00f6b3-e48b-4cd8-bb8c-578c24cdfda4 20051 127.0.0.1 20052 
+Nov 26 19:51:54.632 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-bf00f6b3-e48b-4cd8-bb8c-578c24cdfda4 
+Nov 26 19:51:54.633 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:52:13.459 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 26 19:52:13.460 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Nov 26 19:52:13.460 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 26 19:52:13.460 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg configs\i2_private-config.cfg 
+Nov 26 19:52:13.461 HYPERVISOR: exec_cmd: vm start R2 
+Nov 26 19:52:43.813 HYPERVISOR: exec_cmd: vm extract_config R2 

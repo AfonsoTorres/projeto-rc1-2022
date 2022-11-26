@@ -1,0 +1,58 @@
+Nov 26 19:51:51.275 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 26 19:51:51.275 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53203.
+Nov 26 19:51:51.413 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 26 19:51:51.413 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips 
+Nov 26 19:51:51.429 GENERAL: working_dir=C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips
+Nov 26 19:51:51.429 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips\c4ea9b2d-e241-4e7e-99d4-094fe0a80c21 
+Nov 26 19:51:51.429 GENERAL: working_dir=C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips\c4ea9b2d-e241-4e7e-99d4-094fe0a80c21
+Nov 26 19:51:51.429 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Nov 26 19:51:51.430 VM: VM R1 created.
+Nov 26 19:51:51.431 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Nov 26 19:51:51.431 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Nov 26 19:51:51.431 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:51:51.431 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Nov 26 19:51:51.431 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 26 19:51:51.432 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Nov 26 19:51:51.432 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/afons/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 26 19:51:51.432 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.1f68.0000 
+Nov 26 19:51:51.433 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Nov 26 19:51:51.433 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Nov 26 19:51:51.433 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:51:51.433 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Nov 26 19:51:51.433 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:51:51.433 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Nov 26 19:51:51.434 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:51:51.434 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Nov 26 19:51:52.853 HYPERVISOR: exec_cmd: nio create_udp udp-0d0b1646-11b1-46f2-9f7d-d4d2fa30b879 20003 127.0.0.1 20004 
+Nov 26 19:51:53.159 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 1 udp-0d0b1646-11b1-46f2-9f7d-d4d2fa30b879 
+Nov 26 19:51:53.160 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:51:53.257 HYPERVISOR: exec_cmd: nio create_udp udp-7e5544ea-dc80-4141-b6a5-5c59903e0d9b 20007 127.0.0.1 20008 
+Nov 26 19:51:53.259 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-7e5544ea-dc80-4141-b6a5-5c59903e0d9b 
+Nov 26 19:51:53.259 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:51:53.318 HYPERVISOR: exec_cmd: nio create_udp udp-93ad930b-a253-4a33-85c1-e71544045b25 20011 127.0.0.1 20012 
+Nov 26 19:51:53.320 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-93ad930b-a253-4a33-85c1-e71544045b25 
+Nov 26 19:51:53.320 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:51:53.722 HYPERVISOR: exec_cmd: nio create_udp udp-242947f4-5035-432f-b0b5-c4b46b75d6e8 20027 127.0.0.1 20028 
+Nov 26 19:51:53.724 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-242947f4-5035-432f-b0b5-c4b46b75d6e8 
+Nov 26 19:51:53.724 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:52:12.348 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 26 19:52:12.351 VM: VM Ghost created.
+Nov 26 19:52:12.353 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/afons/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Nov 26 19:52:12.353 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 26 19:52:12.354 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Nov 26 19:52:12.355 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Nov 26 19:52:12.356 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 26 19:52:12.365 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 26 19:52:12.366 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 26 19:52:12.766 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 26 19:52:12.767 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 26 19:52:12.853 VM: VM Ghost shutdown.
+Nov 26 19:52:12.854 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 26 19:52:12.855 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 26 19:52:12.855 VM: VM Ghost destroyed.
+Nov 26 19:52:12.861 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 26 19:52:12.861 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\projeto-rc1-2022\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Nov 26 19:52:12.862 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 26 19:52:12.862 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Nov 26 19:52:12.863 HYPERVISOR: exec_cmd: vm start R1 
+Nov 26 19:52:43.155 HYPERVISOR: exec_cmd: vm extract_config R1 
