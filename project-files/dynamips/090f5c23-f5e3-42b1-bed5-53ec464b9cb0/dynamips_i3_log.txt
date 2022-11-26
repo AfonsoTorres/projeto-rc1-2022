@@ -1,0 +1,26 @@
+Nov 10 08:59:51.337 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 10 08:59:51.338 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49874.
+Nov 10 08:59:51.838 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 10 08:59:51.839 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\Projeto2022\project-files\dynamips 
+Nov 10 08:59:51.839 GENERAL: working_dir=C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\Projeto2022\project-files\dynamips
+Nov 10 08:59:51.839 HYPERVISOR: exec_cmd: ethsw create Marketing1 
+Nov 10 08:59:55.442 HYPERVISOR: exec_cmd: nio create_udp udp-a10ebd36-e508-4ff4-833a-bf5605f22746 20009 127.0.0.1 20010 
+Nov 10 08:59:55.443 HYPERVISOR: exec_cmd: ethsw add_nio Marketing1 udp-a10ebd36-e508-4ff4-833a-bf5605f22746 
+Nov 10 08:59:55.470 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing1 udp-a10ebd36-e508-4ff4-833a-bf5605f22746 1 
+Nov 10 08:59:55.692 HYPERVISOR: exec_cmd: nio create_udp udp-2abf4c9e-85ea-4416-b930-5dd90d02a22f 20018 127.0.0.1 20017 
+Nov 10 08:59:55.692 HYPERVISOR: exec_cmd: ethsw add_nio Marketing1 udp-2abf4c9e-85ea-4416-b930-5dd90d02a22f 
+Nov 10 08:59:55.723 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing1 udp-2abf4c9e-85ea-4416-b930-5dd90d02a22f 1 
+Nov 10 08:59:55.786 HYPERVISOR: exec_cmd: nio create_udp udp-cde55a8a-fa8f-4e27-bd6b-c79f694dca79 20020 127.0.0.1 20019 
+Nov 10 08:59:55.786 HYPERVISOR: exec_cmd: ethsw add_nio Marketing1 udp-cde55a8a-fa8f-4e27-bd6b-c79f694dca79 
+Nov 10 08:59:55.787 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing1 udp-cde55a8a-fa8f-4e27-bd6b-c79f694dca79 1 
+Nov 10 09:04:16.793 HYPERVISOR: exec_cmd: ethsw rename Marketing1 Marketing 
+Nov 10 09:04:16.793 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-a10ebd36-e508-4ff4-833a-bf5605f22746 1 
+Nov 10 09:04:16.794 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-2abf4c9e-85ea-4416-b930-5dd90d02a22f 1 
+Nov 10 09:04:16.794 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-cde55a8a-fa8f-4e27-bd6b-c79f694dca79 1 
+Nov 10 09:04:16.899 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-a10ebd36-e508-4ff4-833a-bf5605f22746 1 
+Nov 10 09:04:16.899 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-2abf4c9e-85ea-4416-b930-5dd90d02a22f 1 
+Nov 10 09:04:16.900 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-cde55a8a-fa8f-4e27-bd6b-c79f694dca79 1 
+Nov 10 11:30:52.754 HYPERVISOR: exec_cmd: ethsw delete Marketing 
+Nov 10 11:30:52.845 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 10 11:30:52.964 HYPERVISOR: Stopped.
+Nov 10 11:30:52.964 GENERAL: reset done.

@@ -1,0 +1,15 @@
+Nov 19 06:36:39.519 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 19 06:36:39.519 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59134.
+Nov 19 06:36:40.010 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 06:36:40.010 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\Projeto2022\project-files\dynamips 
+Nov 19 06:36:40.010 GENERAL: working_dir=C:\Users\afons\OneDrive\Desktop\RC12022\Projeto\Projeto2022\project-files\dynamips
+Nov 19 06:36:40.010 HYPERVISOR: exec_cmd: ethsw create DATACENTER 
+Nov 19 06:36:42.016 HYPERVISOR: exec_cmd: nio create_udp udp-5ac970c2-092e-4c47-a61e-4258ca1226d4 20032 127.0.0.1 20031 
+Nov 19 06:36:42.016 HYPERVISOR: exec_cmd: ethsw add_nio DATACENTER udp-5ac970c2-092e-4c47-a61e-4258ca1226d4 
+Nov 19 06:36:42.047 HYPERVISOR: exec_cmd: ethsw set_access_port DATACENTER udp-5ac970c2-092e-4c47-a61e-4258ca1226d4 1 
+Nov 19 06:36:42.078 HYPERVISOR: exec_cmd: nio create_udp udp-d55079ee-d6c1-4bc0-a770-1c2f4410d0f7 20034 127.0.0.1 20033 
+Nov 19 06:36:42.078 HYPERVISOR: exec_cmd: ethsw add_nio DATACENTER udp-d55079ee-d6c1-4bc0-a770-1c2f4410d0f7 
+Nov 19 06:36:42.116 HYPERVISOR: exec_cmd: ethsw set_access_port DATACENTER udp-d55079ee-d6c1-4bc0-a770-1c2f4410d0f7 1 
+Nov 19 06:36:42.317 HYPERVISOR: exec_cmd: nio create_udp udp-d59548d9-b70a-47f4-8b9d-033326fb180b 20040 127.0.0.1 20039 
+Nov 19 06:36:42.317 HYPERVISOR: exec_cmd: ethsw add_nio DATACENTER udp-d59548d9-b70a-47f4-8b9d-033326fb180b 
+Nov 19 06:36:42.348 HYPERVISOR: exec_cmd: ethsw set_access_port DATACENTER udp-d59548d9-b70a-47f4-8b9d-033326fb180b 1 
