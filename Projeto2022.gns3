@@ -48,7 +48,7 @@
                 "drawing_id": "5ef104b6-c5dd-4792-8618-0564cab3e7d3",
                 "locked": false,
                 "rotation": 50,
-                "svg": "<svg height=\"24\" width=\"124\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.173.173.1/26</text></svg>",
+                "svg": "<svg height=\"29\" width=\"165\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.173.173.1/26</text></svg>",
                 "x": -268,
                 "y": -169,
                 "z": 3
@@ -57,7 +57,7 @@
                 "drawing_id": "3b8581e4-a8d9-4d7e-8a57-d2ad67bec781",
                 "locked": false,
                 "rotation": 9,
-                "svg": "<svg height=\"24\" width=\"132\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.173.173.65/27</text></svg>",
+                "svg": "<svg height=\"29\" width=\"176\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.173.173.65/27</text></svg>",
                 "x": -331,
                 "y": -51,
                 "z": 2
