@@ -165,15 +165,9 @@
                 "drawing_id": "5ceaaabc-669d-4599-8537-4c5e9365cbe9",
                 "locked": false,
                 "rotation": 0,
-<<<<<<< HEAD
-                "svg": "<svg height=\"24\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.20.0.1/16</text></svg>",
-                "x": -113,
-                "y": -12,
-=======
                 "svg": "<svg height=\"29\" width=\"132\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.20.0.1/16</text></svg>",
                 "x": -110,
                 "y": -9,
->>>>>>> 6f002c37070543af5842e2ba636b52dda94b70e2
                 "z": 2
             },
             {
