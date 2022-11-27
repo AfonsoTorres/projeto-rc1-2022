@@ -165,7 +165,7 @@
                 "drawing_id": "5ceaaabc-669d-4599-8537-4c5e9365cbe9",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"132\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.20.0.1/16</text></svg>",
+                "svg": "<svg height=\"24\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.20.0.1/24</text></svg>",
                 "x": -110,
                 "y": -9,
                 "z": 2
@@ -174,7 +174,7 @@
                 "drawing_id": "9bfc662b-0c36-4f3d-9fe3-17ea42a93dea",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"132\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.20.0.2/16</text></svg>",
+                "svg": "<svg height=\"24\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.20.0.2/24</text></svg>",
                 "x": 147,
                 "y": -11,
                 "z": 2
