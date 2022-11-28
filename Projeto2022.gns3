@@ -914,7 +914,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "26fd7ccd-74b2-4cdd-ad80-57b85b74e8f8",
                 "width": 66,
-                "x": -188,
+                "x": -189,
                 "y": -1,
                 "z": 1
             },
@@ -1223,7 +1223,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "26fd7ccd-74b2-4cdd-ad80-57b85b74e8f8",
                 "width": 66,
-                "x": 726,
+                "x": 723,
                 "y": -2,
                 "z": 1
             },
@@ -1626,7 +1626,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "26fd7ccd-74b2-4cdd-ad80-57b85b74e8f8",
                 "width": 66,
-                "x": 265,
+                "x": 262,
                 "y": -3,
                 "z": 1
             },
