@@ -1,2 +1,2 @@
 set pcname DesPriv
-ip 172.20.1.2 172.20.1.1 24
+dhcp

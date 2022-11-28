@@ -1,2 +1,2 @@
 set pcname MarkPriv
-ip 172.20.2.2 172.20.2.1 24
+dhcp
