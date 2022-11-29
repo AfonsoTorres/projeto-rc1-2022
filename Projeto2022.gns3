@@ -66,7 +66,7 @@
                 "drawing_id": "6ceba623-5647-46f2-bf46-2bde1962c0e0",
                 "locked": false,
                 "rotation": -48,
-                "svg": "<svg height=\"24\" width=\"140\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">198.173.173.129/26</text></svg>",
+                "svg": "<svg height=\"29\" width=\"187\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">198.173.173.129/26</text></svg>",
                 "x": -289,
                 "y": 184,
                 "z": 2
@@ -148,15 +148,15 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg height=\"29\" width=\"154\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">120.100.20.0/24</text></svg>",
-                "x": 707,
-                "y": 328,
+                "x": 690,
+                "y": 411,
                 "z": 2
             },
             {
                 "drawing_id": "aa07b073-0793-44f9-af6a-56c8c224624c",
                 "locked": false,
                 "rotation": -90,
-                "svg": "<svg height=\"24\" width=\"140\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">198.173.173.225/27</text></svg>",
+                "svg": "<svg height=\"29\" width=\"187\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">198.173.173.225/27</text></svg>",
                 "x": 268,
                 "y": -38,
                 "z": 2
@@ -182,10 +182,10 @@
             {
                 "drawing_id": "6d4c3138-2a4c-424b-9afd-f878410a67d7",
                 "locked": false,
-                "rotation": 0,
+                "rotation": 270,
                 "svg": "<svg height=\"29\" width=\"247\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">2312:0100:A199:AAEE::/64</text></svg>",
-                "x": 672,
-                "y": 349,
+                "x": 710,
+                "y": 308,
                 "z": 2
             },
             {
@@ -879,7 +879,7 @@
                     "dynamips_id": 1,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "",
+                    "idlepc": "0x60608040",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.151-4.M2.image",
                     "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
@@ -1188,7 +1188,7 @@
                     "dynamips_id": 3,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "",
+                    "idlepc": "0x60608040",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.151-4.M2.image",
                     "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
@@ -1499,7 +1499,7 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -752,
+                "x": -753,
                 "y": 18,
                 "z": 1
             },
@@ -1591,7 +1591,7 @@
                     "dynamips_id": 2,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "",
+                    "idlepc": "0x60608040",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.151-4.M2.image",
                     "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
@@ -1771,8 +1771,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 730,
-                "y": 244,
+                "x": 729,
+                "y": 317,
                 "z": 1
             }
         ]
