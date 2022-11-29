@@ -1499,7 +1499,7 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -754,
+                "x": -752,
                 "y": 18,
                 "z": 1
             },
@@ -1626,7 +1626,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "26fd7ccd-74b2-4cdd-ad80-57b85b74e8f8",
                 "width": 66,
-                "x": 262,
+                "x": 264,
                 "y": -3,
                 "z": 1
             },
