@@ -1,0 +1,2 @@
+set pcname Internet
+ip 120.100.20.2 120.100.20.1 24
