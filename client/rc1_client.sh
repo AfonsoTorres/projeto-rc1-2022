@@ -10,12 +10,13 @@ firefox http://company.pt &
 while true
 do
 	# open client with supressed error output
-	sudo python3 client.py 2>/dev/null
+	python3 client.py
 
 	if [ $? == 0 ]
 	then
 		break
 	else
+		clear
 		echo "Server is down."
 		echo "Retrying..."
 	fi
