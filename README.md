@@ -8,11 +8,15 @@ Project for Redes de Comunicações I
 
 To see the network structre see [report](report/rc1_project_2022.pdf).
 
+![](report/network-ips-diagram/network-ips.jpg)
+
 ## Delivery 2
 
 - *Configuration files for VPCs and Routers*
 
 To see the configuration files for the VPCs and Routers go to [configs](configs).
+
+![](configs/fase2projetoRC1.png)
 
 ## Delivery 3
 
@@ -25,3 +29,6 @@ To see the websites go to [websites](websites). Put each website in the accordin
 Files for Server VM and Client VM are respectively in [server](server) and [client](client) folders. Place them all in the home folder of each VM.
 
 Each folder has a script **rc1_run.sh** that runs everything. This file can be placed anywhere (e.g. on Desktop to "double click to run")
+
+The client shows data from the server.
+![](client/app.png)
