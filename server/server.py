@@ -15,6 +15,13 @@ signal.signal(signal.SIGINT, signal_handler)
 print('Press Ctrl+C to exit...')
 
 OPTIONS = ["All Data", "CPU Usage", "Battery Level"]
+HOSTNAME = socket.gethostname()
+
+# https://stackoverflow.com/a/57355707/11488921
+print("\nResolving IP Address... ")
+IP = socket.gethostbyname(HOSTNAME+".local")
+print("Done! IP:", IP)
+print("")
 
 def get_battery_data():
     battery_data = psutil.sensors_battery()
@@ -59,8 +66,8 @@ def handle_client_connection(client_socket, address):
             data = data_manager(option)
 
             # server info
-            data["hostname"] = socket.gethostname()
-            data["ip_addr"] = socket.gethostbyname(data["hostname"])
+            data["hostname"] = HOSTNAME
+            data["ip_addr"] = IP
 
             data["n_active_clients"] = active_clients
             data["n_clients"] = len(clients)
