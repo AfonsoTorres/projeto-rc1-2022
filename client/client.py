@@ -34,6 +34,13 @@ def print_bar(title, percentage, bar_end=""):
     print("|"*(bar), f'{" "*blank}] ', end="")
     print(f'{percentage:4d}', "%", end=bar_end)
 
+# https://stackoverflow.com/a/1094933/11488921
+def sizeof_fmt(num, suffix="B"):
+    for unit in ["", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"]:
+        if abs(num) < 1024.0:
+            return f"{num:3.1f}{unit}{suffix}"
+        num /= 1024.0
+    return f"{num:.1f}Yi{suffix}"
 
 headerformat='!BLL'
 order = 0
@@ -52,6 +59,17 @@ while True:
             os.system('clear')
 
             print("Server Data:")
+            
+            print(f"Hostname: {values['hostname']}")
+            print(f"IP Address: {values['ip_addr']}")
+            print("")
+
+            print(f"Rcv: {sizeof_fmt(values['bytes'])}")
+            print(f"Tot: {sizeof_fmt(values['total_bytes'])}")
+            print(f"All: {sizeof_fmt(values['total_bytes_all'])}")
+            print(f"Total Clients:  {values['n_clients']:3d}")
+            print(f"Active Clients: {values['n_active_clients']:3d}")
+            print("")
 
             if option in ['1','2']:
                 cpu_percentage = int(float(values['cpu_usage']))

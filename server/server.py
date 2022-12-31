@@ -34,21 +34,55 @@ def data_manager(option):
 
     return data 
 
+clients = {}
+active_clients = 0
+
 def handle_client_connection(client_socket, address):
-    print(f"Accepted connection from {address[0]}:{address[1]}")
+    global active_clients
+
+    client_id = f"{address[0]}:{address[1]}"
+
+    print(f"Accepted connection from {client_id}")
     headerformat='!BLL'
     try:
         result = get_data(client_socket, headerformat)
         option = int(result["message"])
 
         if option > 0:
-            print(f"Client ({address[0]}:{address[1]}) chose [{option}] {OPTIONS[option-1]}")
+            print(f"Client ({client_id}) chose [{option}] {OPTIONS[option-1]}")
+
+        clients[client_id] = 0
+        active_clients += 1
 
         while True:
-            result['message'] = json.dumps(data_manager(option))
+            # machine info
+            data = data_manager(option)
+
+            # server info
+            data["hostname"] = socket.gethostname()
+            data["ip_addr"] = socket.gethostbyname(data["hostname"])
+
+            data["n_active_clients"] = active_clients
+            data["n_clients"] = len(clients)
+
+            # init so that it counts in the total size
+            data["bytes"] = 0
+            data["total_bytes"] = clients[client_id]
+            data["total_bytes_all"] = sum(clients.values())
+
+            # update values with updated size
+            data["bytes"] = len(json.dumps(data).encode())
+            clients[client_id] += data["bytes"]
+            data["total_bytes"] = clients[client_id]
+            data["total_bytes_all"] = sum(clients.values())
+
+            result['message'] = json.dumps(data)
             send_data(client_socket, headerformat, result)
 
     except (socket.timeout, socket.error):
+        # remove active client
+        active_clients-=1
+
         print(f"Client {address} error. Done!")
     finally:
         client_socket.close()
