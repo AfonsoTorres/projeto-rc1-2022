@@ -1,0 +1,17 @@
+$TTL    604800
+$ORIGIN company.pt.
+@           	IN  SOA ns1.company.pt. adm.company.pt. (
+                    2
+                    604800
+                    86400
+                    2419200
+                    604800)
+		IN  NS  ns1.company.pt.
+ns1		IN  A   198.173.173.227
+@		IN  A   198.173.173.227
+www		IN  A   198.173.173.227
+design		IN  A   198.173.173.227
+marketing	IN  A   198.173.173.227
+admin		IN  A   198.173.173.227
+dmz		IN  A   198.173.173.227
+datacenter	IN  A   198.173.173.227
