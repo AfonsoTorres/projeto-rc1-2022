@@ -22,7 +22,7 @@ To see the configuration files for the VPCs and Routers go to [gns-configs](gns-
 
 - *DNS and HTTP configurations*
 
-To see the DNS and HTTP config files, plus the websites, go to [server/dns](server/dns) and [server/http](server/http)
+To see the DNS and HTTP config files, plus the websites, go to [dns](dns) and [http](http)
 
 - *Client and Server aplications*
 
