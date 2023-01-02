@@ -6,7 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "company.pt" in {
+zone "sungla.pt" in {
 	type master;
-	file "/etc/bind/db.company.pt";
+	file "/etc/bind/db.sungla.pt";
 };

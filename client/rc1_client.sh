@@ -4,7 +4,7 @@
 cd ~
 
 # open firefox in main website
-firefox http://company.pt &
+firefox http://sungla.pt &
 
 # retry client app while server is down
 while true
